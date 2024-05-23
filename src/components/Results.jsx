@@ -35,12 +35,12 @@ export default function Results({ input }) {
 
 
                         <td>
-                            {formatter.format(totalInterest)};
+                            {formatter.format(totalInterest)}
                         </td>
 
 
                         <td>
-                            {formatter.format(totalAmountInvested)};
+                            {formatter.format(totalAmountInvested)}
                         </td>
                     </tr>
                 })}
